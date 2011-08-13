@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+munger_path = File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib'))
+$LOAD_PATH.unshift(munger_path) unless $LOAD_PATH.include?(munger_path)
+
+require 'munger'
+require 'munger/cli'
+Munger::CLI.run!(*ARGV)

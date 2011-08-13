@@ -1,0 +1,11 @@
+= munger: a file-modification library (& command-line utility)
+
+Programmatically modify files: insert something before, after, or replacing
+a line that matches a pattern, or just append at the end.
+
+(More docs to come.)
+
+== Copyright
+
+Copyright (c) 2008-2011 Bryan Stearns. See LICENSE.txt for
+further details.
